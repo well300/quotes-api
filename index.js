@@ -1,9 +1,12 @@
 const express = require('express');
 const fs = require('fs/promises');
 const path = require('path');
+const cors = require('cors');
 
 const app = express();
 app.use(express.json());
+
+app.use(cors());
 
 const quotesFilePath = path.join(__dirname, 'quotes.json');
 

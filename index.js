@@ -66,6 +66,11 @@ app.post('/quote', async (req, res) => {
 });
 
 const port = 3000;
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
+});
+
+// Custom message for inspecting
+server.on('listening', () => {
+  console.log('Thanks for using this API');
 });

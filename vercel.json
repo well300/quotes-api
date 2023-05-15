@@ -4,11 +4,10 @@
       "runtime": "nodejs14.x"
     }
   },
-    "routes": [
-      {
-        "src": "/quote",
-        "dest": "/api/index.js"
-      }
-    ]
-  }
-  
+  "routes": [
+    {
+      "src": "/quote",
+      "dest": "/api/index.js"
+    }
+  ]
+}

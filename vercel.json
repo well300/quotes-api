@@ -1,8 +1,7 @@
 {
   "functions": {
     "api/**/*.js": {
-      "runtime": "nodejs12.x",
-      "memory": 512
+      "runtime": "nodejs14.x"
     }
   },
     "routes": [

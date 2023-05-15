@@ -1,14 +1,15 @@
 {
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs12.x",
-      "memory": 512
-    }
-  },
-  "routes": [
-    {
-      "src": "/quote",
-      "dest": "/api/index.js"
-    }
-  ]
-}
+    "functions": {
+      "api/**/*.js": {
+        "runtime": "nodejs12.x",
+        "memory": 512
+      }
+    },
+    "routes": [
+      {
+        "src": "/quote",
+        "dest": "/api/index.js"
+      }
+    ]
+  }
+  

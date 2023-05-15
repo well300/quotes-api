@@ -1,0 +1,21 @@
+{
+  "name": "quote-generator",
+  "version": "2.0.0",
+  "description": "A random quote generator API",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+  "quote",
+  "generator",
+  "API"
+  ],
+  "author": "well300 aka Talha",
+  "license": "ISC",
+  "dependencies": {
+  "express": "^4.18.4",
+  "fs": "^2.0.0"
+  }
+  }

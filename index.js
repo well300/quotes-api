@@ -15,6 +15,10 @@ fs.access(quotesFilePath)
     process.exit(1);
   });
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the Quote API!');
+});
+
 app.get('/quote', async (req, res) => {
   try {
     // Read the quotes from the JSON file

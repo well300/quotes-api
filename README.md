@@ -69,4 +69,4 @@ If an error occurs while fetching or adding a quote, the API will return a JSON 
 ## License
 This project is licensed under the [MIT License](LICENSE). 📄⚖️
 
-Enjoy the adorable cat memes and have a fantastic time with Meme Kitty Express! 😸🌟
+

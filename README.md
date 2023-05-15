@@ -22,7 +22,7 @@ npm start
 Fetches a random quote from the "quotes.json" file and returns it as a JSON response.
 For example, in your client-side JavaScript code, you can use the `fetch` function to make a GET request to the `/quote` endpoint on your server:
 ```
-fetch('https://quotes-api-self.vercel.app/)
+fetch('https://quotes-api-self.vercel.app/quote')
   .then(response => response.json())
   .then(data => {
     // Handle the retrieved quote

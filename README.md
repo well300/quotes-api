@@ -3,7 +3,7 @@
 📜 This is a simple Express.js API that provides a collection of quotes. The quotes are fetched from a JSON file named "quotes.json". The API has two endpoints: `/quote` and `/quote` (HTTP GET and POST, respectively).
 
 ## Example: 
-Here is a working example of a <a target="_blank"  href="https://300talha.github.io/quote-generator/">Quote Generator ✨<a>
+Here is a working example of a <a href="https://300talha.github.io/quote-generator/">Quote Generator ✨<a>
 
 ## Installation
 
